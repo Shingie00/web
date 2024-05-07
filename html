@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Database Access</title>
+    <title>Web Application</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Database Access</h1>
-    <form>
+    <h1>Web Application</h1>
+    <form id="myForm">
         <input type="text" id="name" placeholder="Enter Name">
-        <input type="text" id="email" placeholder="Enter Email">
-        <button type="button" onclick="insertData()">Save</button>
+        <input type="email" id="email" placeholder="Enter Email">
+        <button type="button" onclick="saveData()">Save</button>
     </form>
 
     <div id="result"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
