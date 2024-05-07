@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 $sql = "INSERT INTO users (name, email) VALUES ('$name', '$email')";
 
 if ($conn->query($sql) === true) {
-    echo 'Data inserted successfully.';
+    echo 'Data saved successfully.';
 } else {
     echo 'Error: ' . $sql . '<br>' . $conn->error;
 }
